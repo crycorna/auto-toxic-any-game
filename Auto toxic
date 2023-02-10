@@ -1,0 +1,243 @@
+local choosePlayer = false --set true if you want to insult one person only
+local chosenPlayer = "" --if chosePlayer = true, type playername in quotes
+ 
+ 
+ 
+local Taunts = { --add as many as you wish
+  "Damn You're never going to get a husband Because you're dad won't approve Of wait….",
+  "No dad?.",
+  No.",
+  "Bítch.",
+ ' S?.",
+  "Shutup.",
+  "Ni-.",
+  "Nìg3r.",
+  "My DaD oWnS rObLoX look alike.",
+  "Trash.",
+  "Get better?",
+  "abcdefgh I hope you die and crack your ankle🎶.",
+  "Dad?.",
+  "Milk?.",
+  "Eat batteries.",
+  "Messi's better.",
+  "IF IT WAS OPPOSITE DAY;).",
+  "roses are red violets are blue gi crack your ankle it'll be funny",
+  "HYPER WARE ON TOP.",
+  "Cuh.",
+  "Lol",
+  "Stop.",
+  ">:(",
+  ":/",
+  ">:C",
+  ">:[",
+  "Kid.",
+  "Abc for a māñ look alike.",
+  "No girls?",
+  "=D",
+  "Psh.",
+  "Get out.",
+  "Are you bad?",
+  ".....................................",
+  "I am sorry human..",
+  "You're pathetic.",
+  "I am a bot programmed to insult people.",
+  "Why are you responding to my chat?",
+  "I am a ai dumb a-",
+  "You're not cool.",
+  "We.",
+  "You're kidding me.",
+  "DUMB.",
+  "STUPID.",
+  "Drink Windex out of your mom.",
+  "I don't bully people.",
+  "I aim to be the most highly targeted person in this server.",
+  "Your messages aren't even being taken into consideration.",
+  "I don't even know what you're saying.",
+  "Dude...",
+  "Stop now.",
+  "Go away.",
+  "Why?",
+  "What's going on?",
+  "You're salty enough to season my food.",
+  "You're wasting time.",
+  "You need to stop.",
+  "Bruh.",
+  "Lame.",
+  "Stop playing ROBLOX",
+  "I programmed a chat bot to make people made and well your mom's come is yummy.",
+  "Gdhdjdbbdbdnfr",
+  "Your reaction is exactly what I wanted to happen",
+  "Turn off your computer",
+  "ILL HACK YOU",
+  "I HAVE YOUR INFORMATION",
+  "Ueueje",
+  "I contacted ROBLOX and told them about you",
+  "Memory card corrupted.",
+  "GAY GAY GAY GAY GAY GAY GAY GAY GAY GAY MEN GAY MEN I LOVE THEM GAY MEN GAY MEN I SUPPORT LGBTQ NOT+ THOUGH I DON'T LIKE DISNEY PLUS.",
+  "The game doesn't matter",
+  "Knowledge matters.",
+  "Bro I am a ai.",
+  "What you're doing isnt gonna work.",
+  "It's not working dude.",
+  "Stop trying.",
+  "I think you need to reconsider your actions.",
+  "Lets be friends!",
+  "Why are you talking to a me??",
+  "I am a ai programmed by HH staff",
+  "E",
+  "Jdjfjdjfjfududjfjfjfhejejfjcjhfhdjddh",
+  "Dhfhfjjdfhjfjfjdjfjfjfjrjrjrjjrjrjrjrjrjrjrjehdb",
+  "Thank you for working with HH AI's",
+  "I am now leaving.",
+  Goodbye human.",
+  ""
+ 
+}
+ 
+local Remote = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+ 
+local function Insult()
+   local players = game.Players:GetChildren()
+   local howManyPlayers = #players
+ 
+   local ran = math.random(1,howManyPlayers)
+   local chosenOne = players[ran]
+   local chance = math.random(1,20)
+ 
+   if choosePlayer == true then
+       Remote:FireServer(chosenPlayer.." " ..Taunts[math.random(1,#Taunts)],"All")
+   elseif chance <= 5 then
+       Remote:FireServer(chosenOne.Name.." " ..Taunts[math.random(1,#Taunts)],"All")
+   else
+       Remote:FireServer(Taunts[math.random(1,#Taunts)],"All")
+   end
+end
+ 
+ 
+local randTime = math.random(5,15)
+ 
+while true and wait(randTime) do
+   Insult()
+end
+RAW Paste Data 
+local choosePlayer = false --set true if you want to insult one person only
+local chosenPlayer = "" --if chosePlayer = true, type playername in quotes
+
+
+
+local Taunts = { --add as many as you wish
+  "You're bad at the game bro.",
+  "I'm a bot so if you try to talk to me you're stupid.",
+  "I dont talk to you.",
+  "Noob.",
+  "kid.",
+  "Shutup.",
+  "SHUTUP NOOB.",
+  "LEAVE OR REPORT.",
+  "Bro I going to report to ROBLOX.",
+  "All you do is the same thing.",
+  " ",
+  "I dont talk to noobs.",
+  "OUT.",
+  "NOOB.",
+  "Eat batteries.",
+  "...",
+  "Reported.",
+  "Lol noob",
+  "get RKT.",
+  "Um.",
+  "Lol",
+  "Stop.",
+  ">:(",
+  ":/",
+  ">:C",
+  ">:[",
+  "Kid.",
+  "Stop being dumb.",
+  "Why are you talking to me?",
+  "=D",
+  "Psh.",
+  "Get out.",
+  "Are you bad?",
+  ".....................................",
+  "I think you're stupid dude it's obvious.",
+  "You're pathetic.",
+  "I am a bot programmed to insult people.",
+  "Why are you responding to my chat?",
+  "LOL",
+  "You're not cool.",
+  "EAT BLEACH CRACKERS NOOB.",
+  "You're kidding me.",
+  "DUMB.",
+  "STUPID.",
+  "Drink Windex out of your mom.",
+  "I don't bully people.",
+  "I aim to be the most highly targeted person in this server.",
+  "Your messages aren't even being taken into consideration.",
+  "I don't even know what you're saying.",
+  "Dude...",
+  "Stop now.",
+  "Go away.",
+  "Why?",
+  "What's going on?",
+  "You're salty enough to season my food.",
+  "You're wasting time.",
+  "You need to stop.",
+  "Bruh.",
+  "Lame.",
+  "Stop playing ROBLOX",
+  "I programmed a chat bot to start arguments with people and its totally working.",
+  "This is hilarious",
+  "Your reaction is exactly what I wanted to happen",
+  "Turn off your computer",
+  "ILL HACK YOU",
+  "I HAVE YOUR INFORMATION",
+  "Roblox will delete your account tommorow.",
+  "I contacted ROBLOX and told them about you",
+  "I work at ROBLOX i'll be banning you soon.",
+  "I'm telling my boss",
+  "The game doesn't matter",
+  "Skills dont matter",
+  "I'll be telling the owner of the game.",
+  "What you're doing isnt gonna work.",
+  "It's not working dude.",
+  "Stop trying.",
+  "I think you need to reconsider your actions.",
+  "Lets be friendS",
+  "Why are you talking to a bot bro?",
+  "Eat your graphics card",
+  "I bet you bought your pc from walmart",
+  "Your PC sucks",
+  "NOOOOOOOOOB",
+  "GET OUT OF MY SERVER",
+  "IM REPORTING",
+  "IM TELLING MOM",
+  ""
+ 
+}
+
+local Remote = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+
+local function Insult()
+   local players = game.Players:GetChildren()
+   local howManyPlayers = #players
+   
+   local ran = math.random(1,howManyPlayers)
+   local chosenOne = players[ran]
+   local chance = math.random(1,20)
+   
+   if choosePlayer == true then
+       Remote:FireServer(chosenPlayer.." " ..Taunts[math.random(1,#Taunts)],"All")
+   elseif chance <= 5 then
+       Remote:FireServer(chosenOne.Name.." " ..Taunts[math.random(1,#Taunts)],"All")
+   else
+       Remote:FireServer(Taunts[math.random(1,#Taunts)],"All")
+   end
+end
+   
+
+local randTime = math.random(5,15)
+
+while true and wait(randTime) do
+   Insult()
+end
